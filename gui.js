@@ -4,13 +4,27 @@ var output = document.querySelector("#output")
 
 
 
- 
+var url="https://api.funtranslations.com/translate/minion.json"
+// var url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
 
-button.addEventListener("click", function(){
-    // console.log("heyyy "+ txtArea.value )
-    console.log( output.innerText = txtArea.value)
+function constructURL(text) {
+    return url + "?text=" + text
+
+}
 
 
-    
-    
+
+button.addEventListener("click", function () {
+    var inputTxt=txtArea.value
+    // output.innerText = txtArea.value
+    fetch(constructURL(inputTxt))
+    .then(response => response.json())
+    .then(json => {
+        var translatedText=json.contents.translated;
+        output.innerText=translatedText;
+
+    })
+
+
+
 })
