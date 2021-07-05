@@ -1,0 +1,28 @@
+body{
+    width: 80%;
+}
+#txtArea {
+    border:solid yellow;
+    margin: 1rem;
+    padding: 1rem;
+    height: 80%;
+    display: block;
+    width: 80%;
+    height: 80%;
+
+}
+#output {
+    border:solid yellow;
+    margin: 1rem;
+    padding: 1rem;
+    width: 80%;
+    display: block;
+
+}
+#btnClick{
+    border: solid ;
+    width: 80%;
+    
+
+
+}
