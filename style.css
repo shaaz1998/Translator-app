@@ -9,7 +9,7 @@
 nav{
     font-size: x-large;
     display: block;
-    margin-top: 0;
+    
     
 }
 main {
@@ -52,8 +52,7 @@ main {
     background-color: var(--primary-color);
 }
 
-.center-container {
-    
+.center-container {   
    
     text-align: center;
 
