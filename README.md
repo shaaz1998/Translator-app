@@ -1,2 +1,2 @@
 # Tarnsaltor app
-##English to Minion language
+#English to Minion language
