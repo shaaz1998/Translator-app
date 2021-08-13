@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 :root {
-    --primary-color: yellow;
+    --primary-color: #FCD34D;
     --dark-grey-color: #374151;
     --width-break:600px;
 }
